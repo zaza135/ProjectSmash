@@ -1,3 +1,11 @@
+local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+
+Module.Prompt({ invite = "https://discord.gg/BAuBjjawBF", name = "open your browser and go to this link for the key discord.gg/BAuBjjawBF" }) -- name is optional
+
+Module.Join("https://discord.gg/BAuBjjawBF")
+
+    task.wait(9)
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Lerps main menu (This exists cuz I lost the source code)",
